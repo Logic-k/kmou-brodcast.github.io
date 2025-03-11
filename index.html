@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>한국해양대학교 방송부</title>
+</head>
+<body>
+    <h1>🎤 한국해양대학교 방송부</h1>
+    <p>방송부 공식 홈페이지에 오신 것을 환영합니다!</p>
+
+    <h2>📢 공지사항</h2>
+    <ul>
+        <li>[공지] 신입 부원 모집 중! (~2025년 3월 30일)</li>
+        <li>[업데이트] 홈페이지 오픈 🎉</li>
+    </ul>
+
+    <h2>🎬 방송부 영상</h2>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/비디오ID" frameborder="0" allowfullscreen></iframe>
+
+    <h2>📸 사진 갤러리</h2>
+    <img src="https://via.placeholder.com/400" alt="방송부 활동 사진">
+
+    <h2>👥 방송부 부원 소개</h2>
+    <ul>
+        <li>홍길동 - 부장</li>
+        <li>이영희 - 기술팀</li>
+    </ul>
+
+    <h2>💬 의견 남기기</h2>
+    <div id="disqus_thread"></div>
+    <script>
+    var disqus_config = function () {
+        this.page.url = window.location.href;
+        this.page.identifier = window.location.pathname;
+    };
+    (function() {
+        var d = document, s = d.createElement('script');
+        s.src = 'https://your-disqus-shortname.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+    })();
+    </script>
+</body>
+</html>
